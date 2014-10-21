@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.mongodb.morphia:morphia-logging-slf4j:0.108">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.mongodb.morphia/morphia-logging-slf4j/jars/morphia-logging-slf4j-0.108.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

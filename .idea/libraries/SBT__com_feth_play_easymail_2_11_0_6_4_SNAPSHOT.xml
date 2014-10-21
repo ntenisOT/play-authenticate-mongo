@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.feth:play-easymail_2.11:0.6.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.feth/play-easymail_2.11/jars/play-easymail_2.11-0.6.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
