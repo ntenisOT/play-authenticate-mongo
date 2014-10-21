@@ -6,6 +6,7 @@ package helper.datasources;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
+import models.*;
 import org.mongodb.morphia.Morphia;
 import play.Logger;
 import play.Play;
@@ -36,10 +37,15 @@ public final class MongoDB {
 
         if (MorphiaObject.mongo != null) {
             MorphiaObject.morphia = new Morphia();
-            MorphiaObject.datastore = MorphiaObject.morphia.createDatastore(MorphiaObject.mongo, "heroku_app30728551");
+            MorphiaObject.datastore = MorphiaObject.morphia.createDatastore(MorphiaObject.mongo, mongoURI.getDatabase());
 
-            //todo
             //Map classes
+
+            MorphiaObject.morphia.map(User.class);
+            MorphiaObject.morphia.map(LinkedAccount.class);
+            MorphiaObject.morphia.map(SecurityRole.class);
+            MorphiaObject.morphia.map(TokenAction.class);
+            MorphiaObject.morphia.map(UserPermission.class);
 
             MorphiaObject.datastore.ensureIndexes();
             MorphiaObject.datastore.ensureCaps();

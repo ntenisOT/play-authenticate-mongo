@@ -11,7 +11,8 @@ public class LinkedAccount {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	@Id
+	public ObjectId id;
 
 	public String providerUserId;
 
