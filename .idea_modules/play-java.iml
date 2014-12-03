@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="scala" name="Scala">
-      <configuration>
-        <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="SBT: scala:2.11.1" />
-        <option name="compilerOptions" value="-encoding utf8" />
-        <option name="deprecationWarnings" value="true" />
-        <option name="fsc" value="true" />
-        <option name="languageLevel" value="Scala 2.11" />
-        <option name="uncheckedWarnings" value="true" />
-      </configuration>
-    </facet>
-  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../target/scala-2.11/test-classes" />
@@ -32,7 +19,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.1" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:twirl-api_2.11:1.0.2" level="project" />
     <orderEntry type="library" name="SBT: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.1" level="project" />
@@ -156,5 +142,11 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.seleniumhq.selenium:selenium-support:2.39.0:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-assert:1.4:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-util:1.1.6:test" level="project" />
+    <orderEntry type="library" name="SBT: org.mongodb:mongo-java-driver:2.12.2" level="project" />
+    <orderEntry type="library" name="SBT: org.mongodb.morphia:morphia:0.108" level="project" />
+    <orderEntry type="library" name="SBT: be.objectify:deadbolt-core_2.11:2.3.0-RC1" level="project" />
+    <orderEntry type="library" name="SBT: com.feth:play-authenticate_2.11:0.6.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="SBT: com.feth:play-easymail_2.11:0.6.4-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="SBT: be.objectify:deadbolt-java_2.11:2.3.0-RC1" level="project" />
   </component>
 </module>
